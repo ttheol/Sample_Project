@@ -1,0 +1,13 @@
+# Project description file
+
+project.name=Sample_Project
+project.config.storage=ZIP
+project.id=214d2ef8-c9e1-4ff4-83a5-a0e989eb24bd
+team.server.enabled=true
+product.original.name=
+product.name=NeoLoad
+product.original.version=
+project.config.path=config.zip
+project.version=6.5
+project.original.version=4.2
+team.server.project=/ttheol/Sample_Project.git
