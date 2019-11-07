@@ -1,14 +1,22 @@
 <me-host loadWeight="1" sapSupport="false" standalone="false"
-    supportWANEmulation="false" uid="localhost" version="6.7.0;build=20181030-15">
+    supportWANEmulation="false" uid="localhost" version="7.0.2;build=20190924-58">
     <!--****** LG NETWORK INTERFACES ******-->
     <lg-networkiface description="en0" enabled="false"
         isLoopBack="false" name="en0">
         <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="10.0.4.59">
-            <ip value="10.0.4.59"/>
+        <lg-address enabled="false" hostname="10.0.4.77">
+            <ip value="10.0.4.77"/>
         </lg-address>
-        <lg-address enabled="false" hostname="fe80:0:0:0:8d1:62f3:f343:31c3%en0">
-            <ip value="fe80:0:0:0:8d1:62f3:f343:31c3%en0"/>
+        <lg-address enabled="false" hostname="fe80:0:0:0:1481:537:5867:6f04%en0">
+            <ip value="fe80:0:0:0:1481:537:5867:6f04%en0"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="en3" enabled="false"
+        isLoopBack="false" name="en3">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:aede:48ff:fe00:1122%en3">
+            <ip value="fe80:0:0:0:aede:48ff:fe00:1122%en3"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
@@ -25,11 +33,14 @@
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
-    <lg-networkiface description="en5" enabled="false"
-        isLoopBack="false" name="en5">
+    <lg-networkiface description="en6" enabled="false"
+        isLoopBack="false" name="en6">
         <!--****** LG ADDRESSES ******-->
-        <lg-address enabled="false" hostname="fe80:0:0:0:aede:48ff:fe00:1122%en5">
-            <ip value="fe80:0:0:0:aede:48ff:fe00:1122%en5"/>
+        <lg-address enabled="false" hostname="10.0.4.114">
+            <ip value="10.0.4.114"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:10ce:7130:eef8:8aa4%en6">
+            <ip value="fe80:0:0:0:10ce:7130:eef8:8aa4%en6"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
